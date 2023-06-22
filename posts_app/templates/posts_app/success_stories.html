@@ -1,20 +1,18 @@
 {% extends 'base.html' %} {% block content %}
 
-
-  <h1 class="h1-custom">Success Stories</h1>
-  <div class="articles">
-    {% for post in posts %}
-    <div class="artile">
-      <div class="thumbnail">
-        <img src="{{ post.thumbnail.url }}">
-      </div>
-      <h2 class="caption">{{post.title}}</h2>
-      <p>{{post.snippet}}</p>
-      <p>{{post.date}}</p>
-      <a href="{% url 'post_detail' slug=post.slug %}">Read More</a>
+<h1 class="h1-custom">Success Stories</h1>
+<div class="articles">
+  {% for post in posts %}
+  <div class="artile">
+    <div class="thumbnail">
+      <img src="{{ post.thumbnail.url }}" />
     </div>
-    {% endfor %}
+    <h2 class="caption">{{post.title}}</h2>
+    <p>{{post.snippet}}</p>
+    <p>{{post.date}}</p>
+    <a href="{% url 'post_detail' slug=post.slug %}">Read More</a>
   </div>
-
+  {% endfor %}
+</div>
 
 {% endblock content %}
