@@ -37,3 +37,9 @@ Clone the repository via HTTPS:
 
 ## Dependencies 
 You need to install Django and Pillow package in your local venv to be able to run Django server
+![DOGIMAGE!](/github_images/01.PNG)
+![DOGIMAGE!](/github_images/02.PNG)
+![DOGIMAGE!](/github_images/03.PNG)
+![DOGIMAGE!](/github_images/04.PNG)
+![DOGIMAGE!](/github_images/05.PNG)
+![DOGIMAGE!](/github_images/06.PNG)
